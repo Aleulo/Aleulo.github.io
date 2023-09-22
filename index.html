@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal Emulator</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div id="terminal">
+        <p id="before"></p>
+        <span id="cursor"></span> <!-- Add a separate element for the cursor -->
+        <p id="typer" class="color2"></p>
+       
+        <textarea id="texter"></textarea>
+    </div>
+    
+    <script type="module" src="js/utilities.js"></script>
+    <script type="module" src="js/commands.js"></script>
+    <script type="module" src="js/main.js"></script>
+
+</body>
+</html>
